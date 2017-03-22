@@ -1,0 +1,43 @@
+header {
+background-color: rgb(47, 54, 169);
+height: 100px;
+}
+h1 {
+color: white
+
+}
+
+.mainNav {
+  color: white;
+}
+
+ul li {
+
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.eachHouse {
+  height: 450px;
+  width: 300px;
+    border: double;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+
+
+}
+.myHouses {
+  margin-left: 7%;
+
+}
+
+.newHouse {
+float: right;
+margin: 15px;
+}
