@@ -1,0 +1,56 @@
+header {
+background-color: rgb(47, 54, 169);
+height: 100px;
+}
+.mainHeader {
+display: flex;
+justify-content: space-between;
+}
+
+h1 {
+color: white
+}
+.logo {
+  margin-left: 25px;
+}
+
+.mainNav {
+  width: 400px;
+  color: white;
+  margin-right: 25px;
+  padding-top: 40px;
+}
+
+ul li {
+
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.eachHouse {
+  height: 450px;
+  width: 300px;
+    border: double;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+
+
+}
+.myHouses {
+  margin-left: 7%;
+  margin-top: 30px;
+
+}
+
+.newHouse {
+float: right;
+margin: 15px;
+}

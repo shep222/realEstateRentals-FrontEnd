@@ -6,6 +6,13 @@ h1 {
 color: white
 
 }
+.mainHeader {
+display: flex;
+justify-content: space-between;
+}
+.logo {
+  margin-left: 25px;
+}
 
 .mainNav {
   color: white;

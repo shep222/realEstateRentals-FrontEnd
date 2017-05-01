@@ -10,22 +10,15 @@
 </head>
 
 <body>
-    <header>
-        <h1>J&R Properties</h1>
-        <nav class="mainNav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li>About</li>
-                <li>Houses</li>
-                <li>Application</li>
-            </ul>
-        </nav>
+    <header class="mainHeader">
+        <h1 class="logo">J&R Properties</h1>
+
     </header>
 
     <main>
       <section class="backgroundNew">
       <h1 class="landingTitle">Add A Movie</h1>
-      <article class="addLayout">
+      <form class="addLayout">
           <div class="adding">
               <label for="">Address</label>
               <input class="newAddress" type="text" name="" value="">
@@ -45,8 +38,7 @@
           </div>
           <div class="adding">
               <label for="">Main Image</label>
-              <input class="newURL" type="text" name="" value="">
-              <button class="btn btn-primary" type="button" name="button">Find</button>
+              <input class="newURL" type="file" name="" value="">
           </div>
           <div class="adding">
             <button type="button" name="button">&#43;</button>
@@ -54,15 +46,15 @@
 
           </div>
           <div class="adding">
-              <button class="addMovie btn btn-primary" type="button" name="button">Add House</button>
-              <a class="btn btn-primary" href="index.html">Return to Admin</a>
+              <button class="addMovie btn btn-primary" type="submit" name="button">Add House</button>
+              <a class="btn btn-primary" href="admin.html">Return to Admin</a>
           </div>
-      </article>
+      </form>
   </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="./scripts/addHouse.js"></script>
 </body>
 
 </html>
